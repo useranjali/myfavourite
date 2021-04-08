@@ -1,0 +1,102 @@
+#books{
+  width:200px;
+  height:200px;
+  border-radius:50%;
+  border-style:solid;
+  font-weight:bold;
+  
+}
+#ist{
+ font-family: 'Chango', cursive;
+  color:blue;
+  background:linear-gradient(200deg,#d1199a 0%,#1eccd9 50%,#4718c9 );
+  text-shadow: 2px 2px cyan;
+ 
+}
+#second{
+  font-family: 'Architects Daughter', cursive;
+}
+h3{
+  color:purple;
+  font-size:15px;
+  font-family:cursive;
+  
+
+}
+p{
+  font-family:sans-serif;
+  font-size:15px;
+  color:#d1199a;
+  max-width:500px;
+  margin:auto;
+  padding:10px;
+  text-align:justify;
+}
+body{
+  text-align:center;
+  background-color:#1eccd9 ;
+ 
+ 
+}
+img{
+  margin:20px;
+}
+#intro{
+   background:linear-gradient(200deg,#d1199a 0%,#1eccd9 50%,#4718c9 );
+}
+.head{
+  font-size:30px;
+    color:blue;
+ 
+}
+.line{
+width:100px;
+height:10px;
+background-color:blue;
+margin: 2px auto;
+}
+ul{
+  
+  list-style:none;
+  background-color:white;
+  display:inline;
+}
+#menu ul{
+
+  position:sticky;
+ 
+  margin-top:0;
+}
+.list{
+  float:left;
+  padding:10px;
+  color:purple;
+  font-weight:800;
+  background:black;
+  cursor:pointer;
+}
+a{
+  color:purple;
+  text-decoration:none;
+}
+a:hover{
+  color:blue;
+  font-size:20px;
+}
+.pic{
+  width:200px;
+  height:300px;
+}
+.picquote{
+    width:400px;
+    height:300px;
+}
+html{
+    scroll-behavior: smooth;
+}
+ img{
+    transition: transform .2s;
+}
+ img:hover{
+    transform: scale(0.9);
+}
